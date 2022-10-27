@@ -1,0 +1,55 @@
+html{
+  margin: 0%;
+  
+  padding: 0%;
+}
+body{
+  background-color: white;
+}
+main{
+  display:grid
+  
+}
+/*main div{
+  
+  padding: 2em;
+  
+}*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: start;
+  padding: 20px 0;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.item-a{
+  background-color: hsl(31, 77%, 52%);
+
+}
+.item-b{
+  background-color:hsl(184, 100%, 22%);
+
+}
+.item-c{
+  background-color:  hsl(179, 100%, 13%);
+  
+}
+h3{
+  color: white;
+}
+
+/*button.sedan{
+  Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+  padding-top: 20px;*/

@@ -1,0 +1,85 @@
+main{
+  margin: 0;
+  width: 0;
+}
+.flex-container{
+  display: flex;
+  background-color: white;
+  margin: auto;
+  padding: 100px
+}
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  padding: 60px;
+  
+}
+.suvs{
+  background-color:hsl(184, 100%, 22%) ;
+  padding: 60px;
+  
+}
+.luxury{
+  background-color:hsl(179, 100%, 13%);
+  padding: 60px;
+  
+}
+h3{
+  color: white;
+}
+p{
+ 
+ text-align: start;
+ font-size: 15px; 
+ color: #f3f1ec;
+
+}
+button.sedan{
+  Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+  padding-top: 20px;
+
+  
+  
+}
+.sed{
+  color: white;
+  background-color:hsl(31, 77%, 52%) ;
+  border: 2px solid whitesmoke;
+  border-radius: 19px;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 95%;
+  padding: 5px;
+}
+.su{
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  border: 2px solid whitesmoke;
+  border-radius: 19px;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 95%;
+  padding: 5px;
+}
+.lux{
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  border: 2px solid whitesmoke;
+  border-radius: 19px;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 95%;
+  padding: 5px;
+  
+}
+button.luxury{
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  
+}
